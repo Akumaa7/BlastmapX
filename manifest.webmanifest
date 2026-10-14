@@ -1,5 +1,6 @@
 {
-  "name": "Mapeador de Croqui",
+  "id": "/BlastmapX/app",
+  "name": "Blastmap X",
   "short_name": "Croqui",
   "description": "Malha de perfuração: mapa, foto de drone e 3D",
   "lang": "pt-BR",
