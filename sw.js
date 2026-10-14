@@ -1,6 +1,6 @@
 // Service worker do Mapeador de Croqui: guarda o app no aparelho para abrir sem sinal.
 const CACHE = 'croqui-v2';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+const SHELL = ['./', './index.html', './manifest.webmanifest'];
 // Recursos externos (3D e fonte). Se falhar o download aqui, são guardados na primeira vez em que o app os usar online.
 const EXTRA = [
   'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js',
